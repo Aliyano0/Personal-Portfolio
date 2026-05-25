@@ -4,11 +4,12 @@
   --color-main-bg: #053a36;
   --color-main-text: #CB4943;
   --color-main-para: #D6CEC3;
+  --text-muted: #D6CEC3;
 
   --shadow-inset-nav: inset 0 -3px 0 0 rgba(0, 0, 0, 0);
 
-  --breakpoint-xs: 480px;
-  --breakpoint-lg1336: 1336px;
+  --breakpoint-xs: 30rem;
+  --breakpoint-xl: 83.5rem;
 }
 
 @layer utilities {

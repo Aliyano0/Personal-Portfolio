@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Serif_Display, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import BfcacheProvider from './components/BfcacheProvider';
 
 const dm_serif_display_init = DM_Serif_Display({
   variable: "--font-dmSerifDisplay",
@@ -16,8 +17,8 @@ const roboto_init = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio-Aliyan",
-  description: "Portfolio website for Aliyan Aqeel",
+  title: "Aliyan Aqeel - Full-Stack Web Developer",
+  description: "Full-Stack Web Developer Portfolio for Aliyan Aqeel",
 };
 
 export default function RootLayout({
@@ -31,7 +32,7 @@ export default function RootLayout({
         className={`${dm_serif_display_init.variable} ${roboto_init.variable} antialiased`}
       >
         <Navbar />
-        {children}
+          {children}
       </body>
     </html>
   );
