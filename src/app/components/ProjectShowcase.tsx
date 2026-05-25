@@ -590,7 +590,7 @@ export default function ProjectShowcase() {
 
   return (
     <section
-      className="relative min-h-screen px-4 sm:px-6 md:px-10 lg:px-20 py-16 md:py-24"
+      className="relative min-h-screen px-3 xs:px-4 sm:px-6 md:px-10 lg:px-20 py-16 md:py-24"
       style={{ background: "var(--bg)" }}
     >
       <NoiseOverlay />
@@ -610,7 +610,7 @@ export default function ProjectShowcase() {
         <HeroHeader />
 
         {/* Filter bar */}
-        <div className="flex items-center gap-3 mb-10">
+        <div className="flex items-center gap-2 xs:gap-3 mb-10">
           <Tag size={14} style={{ color: "var(--text-muted)" }} />
           <FilterBar active={activeTag} onChange={setActiveTag} />
           <span className="ml-auto font-mono text-xs inline-block min-w-8.25" style={{ color: "var(--text-muted)" }}>
