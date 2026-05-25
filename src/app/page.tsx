@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="HomeContainer w-full h-full ">
       <section className="w-full pl-4 xs:pl-6 sm:pl-8 md:pl-15 lg:px-18 flex flex-col-reverse items-center justify-center md:flex-row md:items-start md:justify-between mb-20">
-        <motion.div initial={{ translateX: -180, opacity: 0 }} animate={{ translateX: 0, opacity: 1 }} transition={{ duration: 0.8, ease: "easeOut" }} className="HeroHeading pt-12 md:pt-20 xl:pt-30 w-full md:w-[70%] font-dm-serif-display text-[50px] leading-16 xs:text-[60px] xs:leading-18 sm:text-[70px] sm:leading-22 md:text-[90px] md:leading-25 lg:text-[125px] lg:leading-32 xl:text-[130px] xl:leading-33 text-main-text">
+        <motion.div initial={{ translateX: -180, opacity: 0 }} animate={{ translateX: 0, opacity: 1 }} transition={{ duration: 0.8, ease: "easeOut" }} className="HeroHeading pt-12 md:pt-20 xl:pt-30 w-full md:w-[70%] font-dm-serif-display text-[50px] leading-13 xs:text-[60px] xs:leading-16 sm:text-[70px] sm:leading-18 md:text-[90px] md:leading-22 lg:text-[125px] lg:leading-32 xl:text-[130px] xl:leading-33 text-main-text">
           <h1>Hi, I&apos;m</h1>
           <div className="sm:max-w-145 md:max-w-221.5 Name">
             <h1 className="inline-block">Aliyan Aqeel</h1>

@@ -144,7 +144,7 @@ export default function SkillsSection() {
       </div>
 
       {/* ── Tab bar ── */}
-      <div className={`skill-btn w-full flex justify-end relative -left-5 items-center mt-5 mx-4 text-lg sm:text-xl text-main-para mb-6`}>
+      <div className={`skill-btn w-full flex justify-end relative -left-5 items-center mt-5 mx-4  text-base sm:text-lg md:text-xl text-main-para mb-6`}>
         <ul className="flex gap-6 sm:gap-8 justify-between items-center font-roboto">
           {tabs.map(({ key, label, icon }) => (
             <li
