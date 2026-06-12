@@ -7,7 +7,7 @@ import { PiDotsThreeCircle } from "react-icons/pi";
 import {
   SiHtml5, SiCss, SiJavascript, SiTypescript, SiReact, SiNextdotjs,
   SiTailwindcss, SiFramer, SiShadcnui, SiExpress, SiFastapi,
-  SiPostgresql, SiMongodb, SiSanity, SiPostman,
+  SiPostgresql, SiMongodb, SiSanity, SiPostman, SiPrisma,
 } from "react-icons/si";
 import { VscGithubAction } from "react-icons/vsc";
 import { TbAtom2 } from "react-icons/tb"; // used for Zustand (state atom metaphor)
@@ -37,8 +37,10 @@ const BACKEND: Skill[] = [
   { name: "Express.js", icon: <SiExpress />,   color: "#e5e5e5" },
   { name: "Python",     icon: <FaPython />,    color: "#3776AB" },
   { name: "FastAPI",    icon: <SiFastapi />,   color: "#009688" },
-  { name: "PostgreSQL", icon: <SiPostgresql />,color: "#4169E1" },
+  { name: "PostgreSQL", icon: <SiPostgresql />, color: "#4169E1" },
+  { name: "Prisma", icon: <SiPrisma />, color: "#2D3748" },
   { name: "MongoDB",    icon: <SiMongodb />,   color: "#47A248" },
+  { name: "Mongoose",    icon: <SiMongoose />,   color: "#B5A27F" },
   { name: "SanityCMS",  icon: <SiSanity />,    color: "#F03E2F" },
   { name: "SQLModel",   icon: <FaDatabase />,  color: "#6366f1" },
 ];
@@ -48,7 +50,7 @@ const OTHER: Skill[] = [
   { name: "Postman", icon: <SiPostman />,         color: "#FF6C37" },
   { name: "Docker",  icon: <FaDocker />,          color: "#2496ED" },
   { name: "AWS",     icon: <FaAws />,             color: "#FF9900" },
-  { name: "CI/CD",   icon: <VscGithubAction />,   color: "#2088FF" },
+  // { name: "CI/CD",   icon: <VscGithubAction />,   color: "#2088FF" },
 ];
 
 const SKILL_MAP: Record<TabKey, Skill[]> = { frontend: FRONTEND, backend: BACKEND, other: OTHER };
