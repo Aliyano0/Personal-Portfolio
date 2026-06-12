@@ -7,7 +7,7 @@ import { PiDotsThreeCircle } from "react-icons/pi";
 import {
   SiHtml5, SiCss, SiJavascript, SiTypescript, SiReact, SiNextdotjs,
   SiTailwindcss, SiFramer, SiShadcnui, SiExpress, SiFastapi,
-  SiPostgresql, SiMongodb, SiSanity, SiPostman, SiPrisma,
+  SiPostgresql, SiMongodb, SiSanity, SiPostman, SiPrisma, SiMongoose
 } from "react-icons/si";
 import { VscGithubAction } from "react-icons/vsc";
 import { TbAtom2 } from "react-icons/tb"; // used for Zustand (state atom metaphor)
